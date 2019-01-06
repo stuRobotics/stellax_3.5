@@ -1,4 +1,4 @@
-# stellax_3.5
+# Stellax_3.5
 stellax_3.5 control and communication
 
 ## Structure:
