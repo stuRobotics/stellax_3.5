@@ -1,7 +1,7 @@
 # stellax_3.5
 stellax_3.5 control and communication
 
-# Structure:
+## Structure:
 - Distance Measurement:
 	- 24cxx.h					    24cxx.c
 	- myiic.h					    myiic.c
