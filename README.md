@@ -52,3 +52,8 @@ The state data is sent to the master computer by serial port, which contain the 
 - **Control data**: <br>
 The control data is received from the master computer by serial port, which contain the expected speed of two wheels. <br> 
 <img src=https://github.com/stuRobotics/stellax_3.5_stm32/blob/master/img/Control_data.png width=400/> <br>  
+
+- **Other data**: <br>
+	- usart_check_frame: "stttte"
+	- lidar_work_frame:  "slidae"
+	- lidar_stop_frame:  "sfaile"
