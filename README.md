@@ -27,6 +27,7 @@ Check all of the modules, and show their state by lighting the LED. \<br>
 
 ## Types of Data:
 - **Speed**:
+![](https://github.com/stuRobotics/stellax_3.5_stm32/blob/master/img/Speed.png)
 ```C
 typedef union
 {
