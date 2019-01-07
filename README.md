@@ -26,7 +26,7 @@ Check all of the modules, and show their state by lighting the LED. <br>
 	- check.h check.c
 
 ## Types of Data:
-- **Speed**:
+- **Speed**:<br>
 <img src=https://github.com/stuRobotics/stellax_3.5_stm32/blob/master/img/Speed.png width=300 /> <br>  
 ```C
 typedef union
@@ -35,7 +35,7 @@ typedef union
 	unsigned char c[2];
 }Speed;
 ```
-- **Distance**:  
+- **Distance**: <br>
 <img src=https://github.com/stuRobotics/stellax_3.5_stm32/blob/master/img/Distance.png width=300/> <br> 
 ```C
 typedef union
@@ -44,8 +44,10 @@ typedef union
 	unsigned char c[2];
 }Distance;
 ```
-- **State data**:  
+- **State data**: <br> 
+The state data is sent to the master computer by serial port, which contain the actural speed of two wheels and the obstacle distance in 5 directions. 's' indicates the beginning of data, 'e' indicates the end of data. <br> 
 <img src=https://github.com/stuRobotics/stellax_3.5_stm32/blob/master/img/state_data.png /> <br>  
 
-- **Control data**: 
+- **Control data**: <br>
+The control data is received from the master computer by serial port, which contain the expected speed of two wheels. <br> 
 <img src=https://github.com/stuRobotics/stellax_3.5_stm32/blob/master/img/Control_data.png width=400/> <br>  
