@@ -26,7 +26,7 @@ Check all of the modules, and show their state by lighting the LED. <br>
 	- check.h check.c
 
 ## Types of Data:
-- **Speed**:<br>  
+- **Speed**:
 <img src=https://github.com/stuRobotics/stellax_3.5_stm32/blob/master/img/Speed.png width=300 /> <br>  
 ```C
 typedef union
@@ -35,7 +35,7 @@ typedef union
 	unsigned char c[2];
 }Speed;
 ```
-- **Distance**:<br>  
+- **Distance**:  
 <img src=https://github.com/stuRobotics/stellax_3.5_stm32/blob/master/img/Distance.png width=300/> <br> 
 ```C
 typedef union
@@ -44,8 +44,8 @@ typedef union
 	unsigned char c[2];
 }Distance;
 ```
-- **State data**:<br>  
+- **State data**:  
 <img src=https://github.com/stuRobotics/stellax_3.5_stm32/blob/master/img/state_data.png /> <br>  
 
-- **Control data**:<br>  
+- **Control data**: 
 <img src=https://github.com/stuRobotics/stellax_3.5_stm32/blob/master/img/Control_data.png width=400/> <br>  
