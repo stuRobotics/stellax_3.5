@@ -44,5 +44,8 @@ typedef union
 	unsigned char c[2];
 }Distance;
 ```
-- **state data**:<br>  
+- **State data**:<br>  
 <img src=https://github.com/stuRobotics/stellax_3.5_stm32/blob/master/img/state_data.png /> <br>  
+
+- **Control data**:<br>  
+<img src=https://github.com/stuRobotics/stellax_3.5_stm32/blob/master/img/control_data.png /> <br>  
