@@ -27,7 +27,7 @@ Check all of the modules, and show their state by lighting the LED. \<br>
 
 ## Types of Data:
 - **Speed**:
-<br>  <img src=![](https://github.com/stuRobotics/stellax_3.5_stm32/blob/master/img/Speed.png) width=200 />  \<br>  
+<img src=https://github.com/stuRobotics/stellax_3.5_stm32/blob/master/img/Speed.png width=300 /> 
 ```C
 typedef union
 {
@@ -36,7 +36,7 @@ typedef union
 }Speed;
 ```
 - **Distance**:
-<br>  ![](https://github.com/stuRobotics/stellax_3.5_stm32/blob/master/img/Distance.png)  \<br>  
+<img src=https://github.com/stuRobotics/stellax_3.5_stm32/blob/master/img/Distance.png width=300/> 
 ```C
 typedef union
 {
@@ -45,4 +45,4 @@ typedef union
 }Distance;
 ```
 - **state data**:
-<br>  ![](https://github.com/stuRobotics/stellax_3.5_stm32/blob/master/img/state_data.png)  \<br>  
+<img src=https://github.com/stuRobotics/stellax_3.5_stm32/blob/master/img/state_data.png /> 
