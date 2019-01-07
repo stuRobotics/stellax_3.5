@@ -2,7 +2,7 @@
 Slave computer(stm32f103rc) controling and communication
 
 ## Program Structure:
-
+<img src=https://github.com/stuRobotics/stellax_3.5_stm32/blob/master/img/Structure.svg width=500/> <br>  
 - **Distance Measurement**:<br>  
 Configure iic and make use of KS103, return the distances in 5 direction.<br>  
 	- 24cxx.h					    24cxx.c
