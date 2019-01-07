@@ -54,6 +54,9 @@ The control data is received from the master computer by serial port, which cont
 <img src=https://github.com/stuRobotics/stellax_3.5_stm32/blob/master/img/Control_data.png width=400/> <br>  
 
 - **Other data**: <br>
+These data is used to devices checking. In datails, usart_check_frame is for serial port checking, lidar_work_frame is received from master computer, which indicates the lidar is working. In contrast , lidar_stop_frame indicates the lidar stoped.
 	- usart_check_frame: "stttte"
 	- lidar_work_frame:  "slidae"
 	- lidar_stop_frame:  "sfaile"
+	
+## Types of Parameters:
